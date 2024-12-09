@@ -1,0 +1,141 @@
+[
+    {
+        "actionName": "uc_05_cancel_itinerary",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1733745322752
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: header.html",
+                "infFile": "t2.inf",
+                "time": 1733745322756
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1733745322812
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: nav.pl",
+                "infFile": "t4.inf",
+                "time": 1733745322871
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: home.html",
+                "infFile": "t5.inf",
+                "time": 1733745322877
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t6.inf",
+                "time": 1733745323008
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: nav.pl",
+                "infFile": "t7.inf",
+                "time": 1733745323036
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: login.pl_2",
+                "infFile": "t8.inf",
+                "time": 1733745323125
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t9.inf",
+                "time": 1733745323300
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: nav.pl",
+                "infFile": "t10.inf",
+                "time": 1733745323328
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: itinerary.pl",
+                "infFile": "t11.inf",
+                "time": 1733745323414
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: web_custom_request",
+                "infFile": "t12.inf",
+                "time": 1733745323498
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t13.inf",
+                "time": 1733745323604
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: nav.pl",
+                "infFile": "t14.inf",
+                "time": 1733745323658
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: home.html",
+                "infFile": "t15.inf",
+                "time": 1733745323665
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_start_page",
+                "rawStartTime": 1733745322638,
+                "rawEndTime": 1733745322877,
+                "thinkTime": 0.0,
+                "wastedTime": 0.061118364334106448
+            },
+            {
+                "transactionName": "do_login",
+                "rawStartTime": 1733745322878,
+                "rawEndTime": 1733745323125,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00927114486694336
+            },
+            {
+                "transactionName": "open_itinerary",
+                "rawStartTime": 1733745323125,
+                "rawEndTime": 1733745323414,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010431528091430664
+            },
+            {
+                "transactionName": "cancel_itinerary",
+                "rawStartTime": 1733745323415,
+                "rawEndTime": 1733745323499,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002530336380004883
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1733745323499,
+                "rawEndTime": 1733745323665,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007389545440673828
+            },
+            {
+                "transactionName": "uc_05_cancel_itinerary",
+                "rawStartTime": 1733745322638,
+                "rawEndTime": 1733745323665,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09074091911315918
+            }
+        ]
+    }
+]

@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=uc_00_registrations_of_users.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+uc_00_registration_of_users=uc_00_registration_of_users.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+uc_00_registration_of_users=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+uc_00_registration_of_users=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+uc_00_registration_of_users=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+uc_00_registration_of_users=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="uc_00_registration_of_users__*delimiter*__open_start_page__*delimiter*__customer_profile__*delimiter*__confirmation__*delimiter*__greetings__*delimiter*__logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ParameterSimulation]
+NumVusers=1
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=15
+IterationFromRTS=0
+NumIterationIndefinitely=1
+[Transactions]
+uc_00_registration_of_users=
+open_start_page=
+customer_profile=
+confirmation=
+greetings=
+logout=

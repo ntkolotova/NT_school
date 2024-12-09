@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\NT_school\git\NT_school\lr_script\uc_06_registrations_of_new_users
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\nt_school\git\nt_school\lr_script\uc_06_registrations_of_new_users\\logfile.log
+c:\nt_school\git\nt_school\lr_script\uc_06_registrations_of_new_users\\combined_uc_06_registrations_of_new_users.c
+c:\nt_school\git\nt_school\lr_script\uc_06_registrations_of_new_users\\pre_cci.c

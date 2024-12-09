@@ -1,0 +1,128 @@
+[
+    {
+        "actionName": "uc_04_view_itinerary",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1733745443706
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: header.html",
+                "infFile": "t2.inf",
+                "time": 1733745443710
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1733745443770
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: nav.pl",
+                "infFile": "t4.inf",
+                "time": 1733745443826
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: home.html",
+                "infFile": "t5.inf",
+                "time": 1733745443831
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t6.inf",
+                "time": 1733745443963
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: nav.pl",
+                "infFile": "t7.inf",
+                "time": 1733745443991
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: login.pl_2",
+                "infFile": "t8.inf",
+                "time": 1733745444067
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t9.inf",
+                "time": 1733745444206
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: nav.pl",
+                "infFile": "t10.inf",
+                "time": 1733745444235
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: itinerary.pl",
+                "infFile": "t11.inf",
+                "time": 1733745444339
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t12.inf",
+                "time": 1733745444433
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: nav.pl",
+                "infFile": "t13.inf",
+                "time": 1733745444486
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: home.html",
+                "infFile": "t14.inf",
+                "time": 1733745444491
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_start_page",
+                "rawStartTime": 1733745443607,
+                "rawEndTime": 1733745443831,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06014108657836914
+            },
+            {
+                "transactionName": "do_login",
+                "rawStartTime": 1733745443832,
+                "rawEndTime": 1733745444068,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009063005447387696
+            },
+            {
+                "transactionName": "open_itinerary",
+                "rawStartTime": 1733745444068,
+                "rawEndTime": 1733745444339,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010836601257324219
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1733745444339,
+                "rawEndTime": 1733745444492,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007323741912841797
+            },
+            {
+                "transactionName": "uc_04_view_itinerary",
+                "rawStartTime": 1733745443607,
+                "rawEndTime": 1733745444492,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08736443519592285
+            }
+        ]
+    }
+]

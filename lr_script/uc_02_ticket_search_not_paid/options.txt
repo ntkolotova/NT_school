@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\NT_school\git\NT_school\lr_script\uc_02_ticket_search_not_paid
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\nt_school\git\nt_school\lr_script\uc_02_ticket_search_not_paid\\logfile.log
+c:\nt_school\git\nt_school\lr_script\uc_02_ticket_search_not_paid\\combined_uc_02_ticket_search_not_paid.c
+c:\nt_school\git\nt_school\lr_script\uc_02_ticket_search_not_paid\\pre_cci.c

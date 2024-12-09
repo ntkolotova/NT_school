@@ -1,0 +1,310 @@
+Virtual User Script started at: 09.12.2024 15:05:11
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\NT_school\git\NT_school\lr_script\uc_03_buy_tickets\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action uc_03_buy_tickets.
+uc_03_buy_tickets.c(3): Notify: Transaction "uc_03_buy_tickets" started.
+uc_03_buy_tickets.c(5): Notify: Transaction "open_start_page" started.
+uc_03_buy_tickets.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(36): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(36): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(36): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(36): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(36): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(36): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(36): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(36): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(36): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(36): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(36): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(44): web_url("header.html") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(44): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(44): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(44): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(44): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(44): Retrieving data from cache for "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26558]
+uc_03_buy_tickets.c(44): Resource "http://localhost:1080/WebTours/images/hp_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(44): Resource "http://localhost:1080/WebTours/images/webtours.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(44): web_url("header.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+uc_03_buy_tickets.c(62): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(62): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(67): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(67): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(67): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(67): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(67): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(67): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(67): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(67): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+uc_03_buy_tickets.c(67): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(67): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(67): web_url("welcome.pl") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(76): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(76): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(85): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(85): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(90): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(90): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(90): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(90): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(90): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(90): Notify: Saving Parameter "USERSESSION = 140441.143053868HccDQtVpcQfiDDDDtDDtDpztHHHf".
+uc_03_buy_tickets.c(90): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(90): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(90): web_url("nav.pl") was successful, 1490 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(105): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(105): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(110): web_url("home.html") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(110): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(110): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(110): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(110): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(110): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+uc_03_buy_tickets.c(110): Registered web_reg_find successful for "Text=Web Tours" (count=3)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(110): web_url("home.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+uc_03_buy_tickets.c(119): Notify: Transaction "open_start_page" ended with a "Pass" status (Duration: 0.2421 Wasted Time: 0.0620).
+uc_03_buy_tickets.c(123): Notify: Transaction "do_login" started.
+uc_03_buy_tickets.c(152): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(152): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(157): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(157): Notify: Parameter Substitution: parameter "USERSESSION" =  "140441.143053868HccDQtVpcQfiDDDDtDDtDpztHHHf"
+uc_03_buy_tickets.c(157): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(162): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "USERSESSION" =  "140441.143053868HccDQtVpcQfiDDDDtDDtDpztHHHf"
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "USERNAME" =  "Shelli"
+uc_03_buy_tickets.c(162): Notify: Next row for parameter PASSWORD = 1 [table  = PASSWORD].
+uc_03_buy_tickets.c(162): Notify: Parameter Substitution: parameter "PASSWORD" =  "Sheldon123"
+uc_03_buy_tickets.c(162): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(162): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(162): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(162): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(162): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(162): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(162): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(162): Registered web_reg_find successful for "Text=name="userSession" value="140441.143053868HccDQtVpcQfiDDDDtDDtDpztHHHf""  	[MsgId: MMSG-26362]
+uc_03_buy_tickets.c(162): web_submit_data("login.pl") was successful, 5781 body bytes, 2061 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(178): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(178): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(183): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(183): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(183): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(183): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(183): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(183): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(183): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(183): Resource "http://localhost:1080/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(183): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(183): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(183): web_url("nav.pl") was successful, 1482 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(192): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(192): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(197): web_url("login.pl_2") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(197): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(197): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(197): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(197): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(197): Registered web_reg_find successful for "Text=Welcome to Web Tours" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(197): web_url("login.pl_2") was successful, 920 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(206): Notify: Transaction "do_login" ended with a "Pass" status (Duration: 0.2566 Wasted Time: 0.0095).
+uc_03_buy_tickets.c(210): Notify: Transaction "open_flights" started.
+uc_03_buy_tickets.c(236): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(236): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(241): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(241): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(241): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(241): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(241): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(241): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(241): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(241): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(241): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(241): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(241): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(241): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(241): Registered web_reg_find successful for "Text=Web Tours" (count=2)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(241): web_url("welcome.pl") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(250): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(250): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(255): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(255): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(255): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(255): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(255): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(255): Resource "http://localhost:1080/WebTours/images/in_flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(255): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(255): Resource "http://localhost:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(255): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(255): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(255): web_url("nav.pl") was successful, 1482 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(264): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(264): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(269): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(269): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(278): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(278): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(287): web_url("reservations.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(287): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(287): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(287): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(287): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATPREF_1 = Aisle".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATPREF_2 = Window".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATPREF_3 = None".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATTYPE_1 = First".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATTYPE_2 = Business".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATTYPE_3 = Coach".
+uc_03_buy_tickets.c(287): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(287): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATPREF_count = 3".
+uc_03_buy_tickets.c(287): Notify: Saving Parameter "SEATTYPE_count = 3".
+uc_03_buy_tickets.c(287): web_url("reservations.pl") was successful, 4246 body bytes, 255 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(296): Notify: Parameter Substitution: parameter "SEATPREF_count" =  "3"
+uc_03_buy_tickets.c(296): Notify: Parameter Substitution: parameter "SEATPREF_3" =  "None"
+uc_03_buy_tickets.c(296): Notify: Saving Parameter "SEATPREF_RANDOM = None".
+uc_03_buy_tickets.c(297): Notify: Parameter Substitution: parameter "SEATTYPE_count" =  "3"
+uc_03_buy_tickets.c(297): Notify: Parameter Substitution: parameter "SEATTYPE_1" =  "First"
+uc_03_buy_tickets.c(297): Notify: Saving Parameter "SEATTYPE_RANDOM = First".
+uc_03_buy_tickets.c(299): Notify: Transaction "open_flights" ended with a "Pass" status (Duration: 0.2717 Wasted Time: 0.0116).
+uc_03_buy_tickets.c(303): Notify: Transaction "find_flights" started.
+uc_03_buy_tickets.c(332): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(332): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(341): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(341): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(350): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(350): Notify: Parameter Substitution: parameter "DEPARTCITY" =  "Paris"
+uc_03_buy_tickets.c(350): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(355): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(355): Notify: Parameter Substitution: parameter "ARRIVECITY" =  "San Francisco"
+uc_03_buy_tickets.c(355): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(360): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "DEPARTCITY" =  "Paris"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "DEPARTDATE" =  "12/12/2024"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "ARRIVECITY" =  "San Francisco"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "RETURNDATE" =  "12/21/2024"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "SEATPREF_RANDOM" =  "None"
+uc_03_buy_tickets.c(360): Notify: Parameter Substitution: parameter "SEATTYPE_RANDOM" =  "First"
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "OUTBOUNDFLIGHT_1 = 460;1167;12/12/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "OUTBOUNDFLIGHT_2 = 461;1040;12/12/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "OUTBOUNDFLIGHT_3 = 462;1103;12/12/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "OUTBOUNDFLIGHT_4 = 463;955;12/12/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "RETURNFLIGHT_1 = 640;1167;12/21/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "RETURNFLIGHT_2 = 641;1040;12/21/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "RETURNFLIGHT_3 = 642;1103;12/21/2024".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "RETURNFLIGHT_4 = 643;955;12/21/2024".
+uc_03_buy_tickets.c(360): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "OUTBOUNDFLIGHT_count = 4".
+uc_03_buy_tickets.c(360): Notify: Saving Parameter "RETURNFLIGHT_count = 4".
+uc_03_buy_tickets.c(360): Registered web_reg_find successful for "Text=Flight departing from <B>Paris</B>" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(360): Registered web_reg_find successful for "Text=to <B>San Francisco</B>" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(360): web_submit_data("reservations.pl") was successful, 3617 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(384): Notify: Parameter Substitution: parameter "OUTBOUNDFLIGHT_count" =  "4"
+uc_03_buy_tickets.c(384): Notify: Parameter Substitution: parameter "OUTBOUNDFLIGHT_4" =  "463;955;12/12/2024"
+uc_03_buy_tickets.c(384): Notify: Saving Parameter "OUTBOUNDFLIGHT_RANDOM = 463;955;12/12/2024".
+uc_03_buy_tickets.c(385): Notify: Parameter Substitution: parameter "RETURNFLIGHT_count" =  "4"
+uc_03_buy_tickets.c(385): Notify: Parameter Substitution: parameter "RETURNFLIGHT_4" =  "643;955;12/21/2024"
+uc_03_buy_tickets.c(385): Notify: Saving Parameter "RETURNFLIGHT_RANDOM = 643;955;12/21/2024".
+uc_03_buy_tickets.c(387): Notify: Transaction "find_flights" ended with a "Pass" status (Duration: 0.0748 Wasted Time: 0.0031).
+uc_03_buy_tickets.c(391): Notify: Transaction "choose_flights" started.
+uc_03_buy_tickets.c(421): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(421): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(426): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "OUTBOUNDFLIGHT_RANDOM" =  "463;955;12/12/2024"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "RETURNFLIGHT_RANDOM" =  "643;955;12/21/2024"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "SEATTYPE_RANDOM" =  "First"
+uc_03_buy_tickets.c(426): Notify: Parameter Substitution: parameter "SEATPREF_RANDOM" =  "None"
+uc_03_buy_tickets.c(426): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(426): Registered web_reg_find successful for "Text=Payment Details" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(426): web_submit_data("reservations.pl") was successful, 2765 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(444): Notify: Transaction "choose_flights" ended with a "Pass" status (Duration: 0.0796 Wasted Time: 0.0025).
+uc_03_buy_tickets.c(448): Notify: Transaction "buy_flights" started.
+uc_03_buy_tickets.c(477): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(477): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(482): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter FIRSTNAME = 1 [table  = FIRSTNAME].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "FIRSTNAME" =  "Sheldon"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter LASTNAME = 1 [table  = LASTNAME].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "LASTNAME" =  "Cooper"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter ADDRESS1 = 1 [table  = ADDRESS1].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "ADDRESS1" =  "123MapleStreet"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter ADDRESS2 = 1 [table  = ADDRESS2].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "ADDRESS2" =  "Richmond"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter FULLNAME = 1 [table  = FULLNAME].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "FULLNAME" =  "Sheldon Cooper"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter CREDITCARD = 1 [table  = CREDITCARD].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "CREDITCARD" =  "467275"
+uc_03_buy_tickets.c(482): Notify: Next row for parameter EXPDATE = 1 [table  = EXPDATE].
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "EXPDATE" =  "6/28"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "SEATTYPE_RANDOM" =  "First"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "SEATPREF_RANDOM" =  "None"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "OUTBOUNDFLIGHT_RANDOM" =  "463;955;12/12/2024"
+uc_03_buy_tickets.c(482): Notify: Parameter Substitution: parameter "RETURNFLIGHT_RANDOM" =  "643;955;12/21/2024"
+uc_03_buy_tickets.c(482): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+uc_03_buy_tickets.c(482): Registered web_reg_find successful for "Text=Thank you for booking through Web Tours" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(482): web_submit_data("reservations.pl") was successful, 3378 body bytes, 688 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(511): Notify: Transaction "buy_flights" ended with a "Pass" status (Duration: 0.0806 Wasted Time: 0.0028).
+uc_03_buy_tickets.c(515): Notify: Transaction "logout" started.
+uc_03_buy_tickets.c(541): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(541): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(546): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(546): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(546): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(546): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(546): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(546): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(546): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+uc_03_buy_tickets.c(546): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+uc_03_buy_tickets.c(546): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(546): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(546): web_url("welcome.pl") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(555): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(555): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(560): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(560): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(560): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(560): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(560): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(560): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+uc_03_buy_tickets.c(560): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(560): web_url("nav.pl") was successful, 1481 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+uc_03_buy_tickets.c(575): web_reg_find started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(575): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+uc_03_buy_tickets.c(580): web_url("home.html") started  	[MsgId: MMSG-26355]
+uc_03_buy_tickets.c(580): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(580): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(580): Notify: Parameter Substitution: parameter "HOST" =  "localhost"
+uc_03_buy_tickets.c(580): Notify: Parameter Substitution: parameter "PORT" =  "1080"
+uc_03_buy_tickets.c(580): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+uc_03_buy_tickets.c(580): Registered web_reg_find successful for "Text=Web Tours" (count=3)  	[MsgId: MMSG-26364]
+uc_03_buy_tickets.c(580): web_url("home.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+uc_03_buy_tickets.c(589): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.1541 Wasted Time: 0.0082).
+uc_03_buy_tickets.c(593): Notify: Transaction "uc_03_buy_tickets" ended with a "Pass" status (Duration: 1.1636 Wasted Time: 0.0997).
+Ending action uc_03_buy_tickets.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
