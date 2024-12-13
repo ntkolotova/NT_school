@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "b693e0f6-70b4-49a8-a785-a4d501cfd045",
+		"name": "CalculatorCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39994251"
+	},
+	"item": [
+		{
+			"name": "CalcServlet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"a\": 10,\r\n    \"b\": 5,\r\n    \"math\": \"*\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/CalcServlet_war_exploded/calculator",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CalcServlet_war_exploded",
+						"calculator"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
