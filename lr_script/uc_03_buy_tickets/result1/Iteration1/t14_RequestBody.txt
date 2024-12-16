@@ -1,4 +1,0 @@
-"firstName=Sheldon&lastName=Cooper&address1=123MapleStreet&address2=Richmond&pass1=Sheldon+Coop"
-"er&creditCard=467275&expDate=6%2F28&oldCCOption=&numPassengers=1&seatType=First&seatPref=None&"
-"outboundFlight=463%3B955%3B12%2F12%2F2024&returnFlight=643%3B955%3B12%2F21%2F2024&advanceDisco"
-"unt=0&returnFlight=&JSFormSubmit=off&buyFlights.x=44&buyFlights.y=13&.cgifields=saveCC"

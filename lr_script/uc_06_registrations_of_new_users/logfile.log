@@ -1,1 +1,0 @@
-c:\nt_school\git\nt_school\lr_script\uc_06_registrations_of_new_users\\pre_cci.c: uc_06_registration_of_new_users.c:393: warning: declaration of `generate_random_string' does not match previous declaration at uc_06_registration_of_new_users.c:176

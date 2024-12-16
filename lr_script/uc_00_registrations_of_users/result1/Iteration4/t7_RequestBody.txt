@@ -1,2 +1,0 @@
-"username=Korichka&password=RajStar122&passwordConfirm=RajStar122&firstName=Rajesh&lastName=Koo"
-"thrappali&address1=101ElmDrive&address2=Austin&register.x=61&register.y=9"

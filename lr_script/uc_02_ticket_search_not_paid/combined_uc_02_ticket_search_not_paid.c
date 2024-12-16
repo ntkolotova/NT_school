@@ -1,6 +1,0 @@
-#include "lrun.h"
-#include "SharedParameter.h"
-#include "globals.h"
-#include "vuser_init.c"
-#include "uc_02_ticket_search_not_paid.c"
-#include "vuser_end.c"

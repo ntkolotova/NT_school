@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "b2dedc8e-80e3-4a47-acc8-402804554e8b",
+		"name": "SpringCompass",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39994251"
+	},
+	"item": [
+		{
+			"name": "createDirection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"North\": \"0-44\",\r\n    \"North-East\": \"45-89\",\r\n    \"East\": \"90-134\",\r\n    \"South-East\": \"135-179\",\r\n    \"South\": \"180-224\",\r\n    \"South-West\": \"225-269\",\r\n    \"West\": \"270-314\",\r\n    \"North-West\": \"315-359\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8989/createDirection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"createDirection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDirection",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Degree\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8989/getDirection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"getDirection"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

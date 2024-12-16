@@ -1,3 +1,0 @@
-"username=OpNccsKssGZmUG&password=OpNccsKssGZmUG&passwordConfirm=OpNccsKssGZmUG&firstName=OpNcc"
-"sKssGZmUG&lastName=OpNccsKssGZmUG&address1=OpNccsKssGZmUG&address2=OpNccsKssGZmUG&register.x=6"
-"1&register.y=9"

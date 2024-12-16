@@ -1,6 +1,0 @@
-#include "lrun.h"
-#include "SharedParameter.h"
-#include "globals.h"
-#include "vuser_init.c"
-#include "uc_00_registration_of_users.c"
-#include "vuser_end.c"

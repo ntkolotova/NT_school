@@ -1,2 +1,0 @@
-"username=Berni&password=Bernie321&passwordConfirm=Bernie321&firstName=Bernadette&lastName=Rost"
-"enkowski&address1=202BirchBoulevard&address2=Miami&register.x=61&register.y=9"
